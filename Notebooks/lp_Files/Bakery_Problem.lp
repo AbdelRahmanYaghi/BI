@@ -6,8 +6,8 @@ Maximize
  obj: 10 Pounds_of_Bagels + 12 Pounds_of_Muffins
 Subject To
  c1: 5 Pounds_of_Bagels + 4 Pounds_of_Muffins <= 50
- c2: 2 Pounds_of_Bagels + 2 Pounds_of_Muffins <= 30
- c3: Pounds_of_Bagels + Pounds_of_Muffins <= 20
+ c2: 2 Pounds_of_Bagels + 4 Pounds_of_Muffins <= 30
+ c3: Pounds_of_Bagels + 2 Pounds_of_Muffins <= 20
 
 Bounds
 End
