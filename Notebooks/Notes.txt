@@ -1,0 +1,20 @@
+LINEAR PROGRAMMING (Polynomial Time)
+Decision Variables --> Continuous
+Constraints --> Linear
+Objective Function --> Linear
+
+IF Decision VARIABLES ARE INTEGER, 
+THEN IT IS INTEGER LINEAR PROGRAMMING (Exponential Time) 
+
+BI problems:
+A- Stochastic
+B- Determenistic
+    a- Linear
+        1- Linear Programming
+        2- Integer Linear Programming
+    b- NonLinear
+        1- Non Linear Programming
+        2- Integer Non Linear Programming
+            x- B INLP
+
+
