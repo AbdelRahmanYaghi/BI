@@ -7,14 +7,36 @@ IF Decision VARIABLES ARE INTEGER,
 THEN IT IS INTEGER LINEAR PROGRAMMING (Exponential Time) 
 
 BI problems:
-A- Stochastic
-B- Determenistic
-    a- Linear
-        1- Linear Programming
-        2- Integer Linear Programming
-    b- NonLinear
-        1- Non Linear Programming
-        2- Integer Non Linear Programming
-            x- B INLP
+    A- Stochastic
+    B- Determenistic
+        a- Linear
+            1- Linear Programming
+            2- Integer Linear Programming
+        b- NonLinear
+            1- Non Linear Programming
+            2- Integer Non Linear Programming
+                x- B INLP
 
 
+Special Cases of solutions:
+    A- Alternative Optimal Solution
+    B- Infeasibility
+    C- Unbounded 
+
+Convex (Linear) Combination:
+    Any point between 2 points given by:
+    Y = Lx1 + (1-L)x2,
+    where L is lambda, any number between 0-1
+
+Each constraint has a shadow price:
+    Which is the rate/ or amount of change on the objective value
+     for each [1] unit increase in the right hand side of a constraint.
+     
+Binding constraint:
+    When the values of the optimal decision variable values in an constraint
+     it will exactly be on the limit of that constraint. e.g.
+        DV:  a = 2, b = 4.
+        Constraint: 2a + 1b <= 8 ---> Binding Constraint
+
+* Non Binding Constraint will always have a shadow price of 0.
+* 
