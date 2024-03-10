@@ -34,7 +34,7 @@ Maximize cx
 s.t. Ax <= b
 
 Change in A:
-    ???
+    ??? What happens
 
 Change in b:
     Each constraint has a shadow price:
@@ -77,5 +77,8 @@ There is a difference between optimal solution, and optimal decision variables v
 Optimal objective function value is the evalution for the optimal decision variables.
 Solution refers to the optimal Decision variables values.
 
-======
-Generating An alternative optimal solution
+======================
+Generating An alternative optimal solution:
+    Doable by changing the Linear program such that it aims to maximize, or Minimize
+        other decision variables. While adding a constraint dectating that the solution
+        should be equal to the optimal solution.
