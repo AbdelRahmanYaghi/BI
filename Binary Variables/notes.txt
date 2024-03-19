@@ -14,3 +14,14 @@ And if x had a Fixed Cost (A) which was applied once, e.g. setup costs which is 
  - applied. We can do as Follow
 
 Maximize {(PROFIT * x) - (A * xx)}  
+
+Auxiliary DV: Their values aren't independant, and they add no new info,
+ - and thier values rely on other variables, also, they are used to write 
+ - a simplify the formulation
+
+Examples on Auxiliary DV:
+ - F is a D.V. and F has a fixed cost of M. 
+ - F <= [MaxCreationLimitForF] * FF.
+ - FF is the Auxiliary DV. 
+
+ 

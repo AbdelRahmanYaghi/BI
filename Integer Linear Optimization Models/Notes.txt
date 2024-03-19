@@ -11,3 +11,4 @@ Types of integer linear program:
         The decision variables can only be either 0 or 1.
 
 
+ALWAYS USE <= OR >=. DO NOT USE < OR > ONLY
