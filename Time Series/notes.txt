@@ -1,0 +1,22 @@
+Time series patterns:
+1- Horizental Pattern: The mean is equal over any time period
+2- Trend : "Continuous?" Long Term Overall change, whether increasing or decreasing.
+3- Seasonal Pattern: The Non-Random behaviour and pattern across a period of time.  
+4- Trend and Seasonal Pattern: 2+3
+5- ...
+
+
+A- Horizental Pattern:
+  - Stationary: Statistics are independant from time variable.
+    * Plotting a Stationary will always result in a Horizental with minor changes.
+    * E.g. Gasoline Problem
+
+B- Trend Pattern:
+    * E.g. Bicycle Sales
+    * E.g. Cholesterol Drug Revenue
+
+C- Seasonal Pattern:
+    * E.g. Umbrella Sales
+
+D- Trend and Seasonal Pattern:
+    * E.g. Smartphone Sales
