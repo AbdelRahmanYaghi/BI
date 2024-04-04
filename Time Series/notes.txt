@@ -20,3 +20,6 @@ C- Seasonal Pattern:
 
 D- Trend and Seasonal Pattern:
     * E.g. Smartphone Sales
+
+
+*** Check Gallery for changing a seasonality to multivariate problem. Also, in slide 10/19 of chpt 8***
