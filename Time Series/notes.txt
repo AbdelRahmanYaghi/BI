@@ -1,14 +1,13 @@
 Time series patterns:
-1- Horizental Pattern: The mean is equal over any time period
+1- Horizontal Pattern: The mean is equal over any time period
 2- Trend : "Continuous?" Long Term Overall change, whether increasing or decreasing.
 3- Seasonal Pattern: The Non-Random behaviour and pattern across a period of time.  
 4- Trend and Seasonal Pattern: 2+3
 5- ...
 
-
-A- Horizental Pattern:
+A- Horizontal Pattern:
   - Stationary: Statistics are independant from time variable.
-    * Plotting a Stationary will always result in a Horizental with minor changes.
+    * Plotting a Stationary will always result in a Horizontal with minor changes.
     * E.g. Gasoline Problem
 
 B- Trend Pattern:
@@ -21,10 +20,10 @@ C- Seasonal Pattern:
 D- Trend and Seasonal Pattern:
     * E.g. Smartphone Sales
 
+Exponintial Smoothing closed form: y^​t​= \sum_{i=1}^{t} ​(1−α)^{t−i}αy_{i−1​}+(1−α)^{t}y\_hat_{​0}​
 
 *** Check Gallery for changing a seasonality to multivariate problem. Also, in slide 10/19 of chpt 8***
 *** CHECK SHADOW PRICES. THEIR FUNCTIONS IN DOCPLEX
 *** CHECK ALPHA??? HOW DOES IT WORK? CHECK K?? HOW DOES IT WORK?
 *** FORMULATION ==> CHECK HOW TO FOMRULATE IN VERSION 0. & HOW TO GENERELIZE BASIC PROBLEMS.
-*** WHAT IS CLOSED FORM? OR ITERATIVLY? EXPONINTIAL SMOOTHING EQUATION
-***  
+*** WHAT IS CLOSED FORM? OR ITERATIVLY? EXPONINTIAL SMOOTHING EQUATION.
