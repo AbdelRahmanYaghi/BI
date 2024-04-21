@@ -1,0 +1,32 @@
+What does this mean >> "Convex region: For any 2 points in the region, any convex combination should be between them"???
+
+* Convex combination= l*x_1 + (1-l)* x_2 where l is lambda.
+* "Reduces cost" in Non linear is called "Reduced Gradiant".
+
+
+Local and Global Optimality:
+* We used to have one name for optimal solution. Just the optimal solution for all the problem
+* You can face problems where the optimal solution for the problem in Non Linear is infeasable (Global Optimality is infeasable).
+* Hence, we try to look for Local Optimality, meaning the optimal solution whithin the neighborhood for the answer.
+
+Local Optima:
+* A feasible solution when there are no other feasible points with a better objective function value in the neighborhood region.
+
+Shapes (u (cup), n (cap), __ (line)):
+u is convex
+n is concave
+u, n, and __ all together are convex and concave.
+
+DOCPLex can't do some of these probelms, hence, you have to integrate based on X = 0 and Y = 0.  
+
+### CHECK SLIDE 10/16 FOR LOCAL AND GLOBAL OPTIMA GRAPH IN THE SLIDES (FIGURE 14.7).
+### CHeck "LaRosa Machine Shop" problem, location-like problem.
+    # Minimize sqrt((x-1)^2 + (y-2)^2) + sqrt((x-n)^2 + (y-4)^2) + ... 
+    # Optimal answer = (2.230, 3.349)
+
+### Important Hmw 2:
+Part A: Solve LaRosa with integration. (answer should be (2.230, 3.349))
+Part B: Solve LaRosa as binary Linear Problem: Do it by splitting the 6x6 into 36 grids, and calculating the distances for each one of the points prior to giving it to the model.
+        for example, (0.5, 0.5) = 12, (1.5, 0.5) = 10, (2.5, 0.5) = 7, etc.. , and then its a binary problem.  
+
+### Possible exam question: Like the LaRosa Machine problem, but you have to find the point of equal distances to all the locations.

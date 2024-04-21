@@ -14,6 +14,8 @@ BI problems:
             2- Integer Linear Programming
         b- NonLinear
             1- Non Linear Programming
+                1- Convex (Solvable)
+                2- Non-Convex (Not Solvable)
             2- Integer Non Linear Programming
                 x- B INLP
 
