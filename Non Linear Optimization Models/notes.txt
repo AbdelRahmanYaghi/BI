@@ -19,14 +19,11 @@ u, n, and __ all together are convex and concave.
 
 DOCPLex can't do some of these probelms, hence, you have to derivate based on X = 0 and Y = 0.  
 
-### CHECK SLIDE 10/16 FOR LOCAL AND GLOBAL OPTIMA GRAPH IN THE SLIDES (FIGURE 14.7).
-### CHeck "LaRosa Machine Shop" problem, location-like problem.
-    # Minimize sqrt((x-1)^2 + (y-2)^2) + sqrt((x-n)^2 + (y-4)^2) + ... 
-    # Optimal answer = (2.230, 3.349)
+** Forcasting adoption of a new product:
+* Inputs:
+*  - M = the number of people estimated to eventually adopt the new product
+*  - q = the coef of imitation
+*  - p = the coef of innovation
+* Function:
+*  - F_t = (p + q[C_{t-1}/m])(m-C_{t-1})
 
-### Important Hmw 2:
-Part A: Solve LaRosa with derivation. (answer should be (2.230, 3.349))
-Part B: Solve LaRosa as binary Linear Problem: Do it by splitting the 6x6 into 36 grids, and calculating the distances for each one of the points prior to giving it to the model.
-        for example, (0.5, 0.5) = 12, (1.5, 0.5) = 10, (2.5, 0.5) = 7, etc.. , and then its a binary problem.  
-
-### Possible exam question: Like the LaRosa Machine problem, but you have to find the point of equal distances to all the locations.
