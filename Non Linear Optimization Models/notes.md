@@ -19,11 +19,10 @@ u, n, and __ all together are convex and concave.
 
 DOCPLex can't do some of these probelms, hence, you have to derivate based on X = 0 and Y = 0.  
 
-** Forcasting adoption of a new product:
-* Inputs:
-*  - M = the number of people estimated to eventually adopt the new product
-*  - q = the coef of imitation
-*  - p = the coef of innovation
-* Function:
-*  - F_t = (p + q[C_{t-1}/m])(m-C_{t-1})
-
+* Forcasting adoption of a new product:
+    * Inputs:
+        * M = the number of people estimated to eventually adopt the new product
+        * q = the coef of imitation
+        * p = the coef of innovation
+    * Function:
+        * F_t = (p + q[C_{t-1}/m])(m-C_{t-1})
