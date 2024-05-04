@@ -1,5 +1,5 @@
-# Decision Analysis
-## Example: Pittsburhg development
+# Decision Analysis (Without Proba)
+## Example: Pittsburhg development 
 * Plan to build one of these three projects:
     * One project with 30 condos
     * One project with 60 condos
@@ -49,3 +49,18 @@
 1) Decision alternatives (How many condos?) 
 2) Chance event (States of nature, i.e. Weak demand, or Strong Demand)
 3) Create a tree, where (Check slides lol, I will not be bothered to write the tree here.)
+
+# Decision Analysis with Probs:
+  * Expected value: If you had the probabilities for each event to occur, then you mutliple the chance of X occuring by the "profit" if X occured. 
+  * Risk: Probability mass function, for example:
+    * 8 mil, if Event 1 occured
+    * 2 mil, if Event 2 occured
+    * -4 mil, if Event 3 occured
+
+  * Sensitivity Analysis: How much change is required for the optimal solution to stay optimal. 
+
+
+# Decision Analysis with Sample Information:
+## Example: PDC Management
+* Decision Strategy: Not sure what it is
+c
