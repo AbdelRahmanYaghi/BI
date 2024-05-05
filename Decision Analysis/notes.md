@@ -62,5 +62,21 @@
 
 # Decision Analysis with Sample Information:
 ## Example: PDC Management
-* Decision Strategy: Not sure what it is
-c
+* Decision Strategy - Metric 1: EVSI -> Expected Value of Sample Information
+  * Done by reducing the branches over and over \sum(prob * value).
+  * ***In this example, we took the maxes.
+* Decision Strategy - Metric 21: EVPI -> Expected Value of Perfect Information
+  * If you will what probability will hit.  
+  * Done by 0.8 * 20 + 0.2 * 7. We got this by knowing that if High demand occurs (80%) we will get large complex (20 mil), and if Low demand occurs (20%) we will get the small complex (7 mil), 
+
+# Computing Brach Probability with Bayes' Theorom
+* Join prob: prob that A & B happens at the same time (AND): $P(A \cap B)$ This equals $P(B) P(A|B) = P(A) P(B|A)$
+  * If A and B are independant, then $P(A \cap B) = P(A) P(B)$ 
+* Join prob: prob that A or B happens at the same time (OR): $P(A \cup B)$. This equals $P(A) + P(B) - P(A \cap B)$
+* Conditional Probability: Prob of A given B. $P(A | B)$. This equals $\frac{P(A \cap B)}{P(B)} $
+  * If A and B are independant, then $P(A | B) = P(A)$
+<!-- * If A and B are mutually exclusice  -->
+* Bayes Theorem: $P(A|B) = \frac{P(B|A) P(A)}{P(B)}$
+* Bayes Theorem Final Form: $P(B_i|A) = \frac{P(A|B_i) P(B_i)}{\sum_{i=1}P(A|B_i) P(B_i)}$
+  * *Assuming the all i in A are independent.
+
