@@ -3,3 +3,4 @@ Notebooks/venv
 /venv
 *.lp
 *.pdf
+setup.py
