@@ -74,9 +74,126 @@
   * If A and B are independant, then $P(A \cap B) = P(A) P(B)$ 
 * Join prob: prob that A or B happens at the same time (OR): $P(A \cup B)$. This equals $P(A) + P(B) - P(A \cap B)$
 * Conditional Probability: Prob of A given B. $P(A | B)$. This equals $\frac{P(A \cap B)}{P(B)} $
-  * If A and B are independant, then $P(A | B) = P(A)$
+    * If A and B are independant, then $P(A | B) = P(A)$
 <!-- * If A and B are mutually exclusice  -->
 * Bayes Theorem: $P(A|B) = \frac{P(B|A) P(A)}{P(B)}$
 * Bayes Theorem Final Form: $P(B_i|A) = \frac{P(A|B_i) P(B_i)}{\sum_{i=1}P(A|B_i) P(B_i)}$
   * *Assuming the all i in A are independent.
 
+# Utility Theory
+* Utility table is calculated off the pay-off table
+* It allows the same problem to get more solutions based on the decision taker, risky or not e.g.
+* $Indifference = ???$
+* $Utility = Indifference_{current}Indifference_{max} + Indifference_{current}Indifference_{min}$
+
+## Real estate example:
+Person A is a risk avoider.
+Person B is a risk taker.
+
+Payoff Table:
+<table>
+    <tr>
+        <th>Investment dx</th>
+        <th>Price Up s1</th>
+        <th>Price stable s2</th>
+        <th>Price Down s3</th>
+    </tr>
+    <tr>
+        <td>Investment A d1</td>
+        <td>30k</td>
+        <td>20k</td>
+        <td>-50k</td>
+    </tr>
+    <tr>
+        <td>Investment B d2</td>
+        <td>50k</td>
+        <td>-20k</td>
+        <td>-30k</td>
+    </tr>
+    <tr>
+        <td>Do not invest d3</td>
+        <td>d3</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+</table>
+
+Calculating Utility of PayOff table:
+
+<table>
+  <thead>
+    <tr>
+      <th>Monetary value</th>
+      <th>Indifference value of p</th>
+      <th>Utility</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>50k</td>
+      <td>does not apply</td>
+      <td>10.0</td>
+    </tr>
+    <tr>
+      <td>30k</td>
+      <td>0.95</td>
+      <td>9.5</td>
+    </tr>
+    <tr>
+      <td>20k</td>
+      <td>0.90</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>0.75</td>
+      <td>7.5</td>
+    </tr>
+    <tr>
+      <td>-20k</td>
+      <td>0.55</td>
+      <td>5.5</td>
+    </tr>
+    <tr>
+      <td>-30k</td>
+      <td>0.4</td>
+      <td>4.0</td>
+    </tr>
+    <tr>
+      <td>-50k</td>
+      <td>does not apply</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+
+Replace the utility for each item in the payoff-table the quesiton.
+<table>
+    <tr>
+        <th>Decision Alternative</th>
+        <th>prices up</th>
+        <th>prices stable</th>
+        <th>prices down</th>
+    </tr>
+    <tr>
+        <td>A d1</td>
+        <td>9.5</td>
+        <td>9</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>B d2</td>
+        <td>10</td>
+        <td>5.5</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>Do not invest</td>
+        <td>7.5</td>
+        <td>7.5</td>
+        <td>7.5</td>
+    </tr>
+</table>
+
+
+## You can express utility by $U(x) = 1 - e^{\frac{-x}{R}}$
