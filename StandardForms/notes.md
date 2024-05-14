@@ -126,15 +126,46 @@ $2x_1 + 1.5x_2 + 0.5x_3 \leq 8$<br>
 
 $x_1, x_2, x_3 \geq 0$<br>
 
-Becomes:
+ITS DUAL IS:
 
-$\mathrm{maximize} \; 4x_1 - x_2 - x_3$<br>
+$\mathrm{minimize} \; 48x_1 + 20x_2 + 8x_3$<br>
 Subject To <br>
-$3x_1 - x_2^\prime + (x_3^{\prime} - x_3^{\prime}{^\prime})  + e_1 = 6$<br>
-$2x_1 - x_2^\prime - (x_3^{\prime} + x_3^{\prime}{^\prime}) - e_2 = 3$<br>
-$x_1 - x_2^\prime - (x_3^{\prime} + x_3^{\prime}{^\prime}) - e_3 = 6$<br>
-$e_1, e_2, e_3 \geq 0$<br>
-$x_2^\prime, x_3^{\prime}, x_3^{\prime}{^\prime} \geq 0$<br>
-$x_1 \geq 0$
+$8x_1 + 4x_2 + 2x_3 \geq 60$<br>
+$6x_1 + 2x_2 + 1.5x_3 \geq 30$<br>
+$x_1 + 1.5x_2 + 0.5x_3 \geq 20$<br>
+
+$x_1, x_2, x_3 \geq 0$<br>
+
+DUAL as in: |Constrains| = |Decision Variables in Dual| <br>
+DUAL as in: B(Right hand side) is in DUAL C(Decision Variable Coef) <br>
+DUAL as in: Max become min in DUAL <br>
+DUAL as in: leq becomes geq in DUAL <br>
+Given a PRIMAL problem with N Decision variables, you have n constrains in Dual.<br>
+Given a PRIMAL problem with M constraints, you have m Decision Variables in Dual. where each constraint in DUAL has M "7ad". <br>
+
+Which is done by: <br>
+Primal Problem: <br>
+
+$\mathrm{max} \; c^T x$ <br>
+subject to<br>
+$Ax \leq b$<br>
+$x \geq 0$<br>
+
+Dual Problem
+$\mathrm{min} \; b^T y$ <br>
+subject to<br>
+$Ay \geq c$<br>
+$y \geq 0$<br>
+
+
+1. For each constaint we add a DV.
+2. Use Bs (Right hand side of constraints as Coefs)
+3. DUAL A = We transpose PRIMAL A (Coef of Left hand side constraints)
+4. Just check the slides.
+    * if constraint geq b --> y leq 0
+
+____
+
+
 
 
